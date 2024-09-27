@@ -1,0 +1,46 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.date-picker-container {
+  background-color: white; 
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; 
+  width: 300px; 
+  text-align: center; 
+}
+
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold; 
+}
+
+
+input, select {
+  width: 100%;
+  padding: 10px; 
+  margin: 5px 0; 
+  border: 1px solid #ced4da; 
+  border-radius: 4px;
+}
+
+
+.selected-recurrence {
+  margin-top: 20px;
+  text-align: left; 
+  padding: 10px; 
+  border: 1px solid #007bff;
+  border-radius: 4px; 
+  background-color: #e9f5ff; 
+}
